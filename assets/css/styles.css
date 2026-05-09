@@ -748,3 +748,16 @@ border-radius: 8px;
 .footerNewExcello .copyrights p {
     margin: 0;
 }
+.socialIcons {
+    text-align: right;
+    margin-top: 20px;
+}
+.socialIcons ul,
+.socialIcons ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
