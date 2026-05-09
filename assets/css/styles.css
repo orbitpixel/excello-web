@@ -6,6 +6,12 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+.head {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 header {
     padding: 29px 0;
 }
@@ -74,6 +80,17 @@ header .ctaSection ul li a {
       max-height: 90vh;
       margin-top:10px;
   }
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 100%;
 }
 /* ============ mobile view .end// ============ */
 .navigation .navbar {
