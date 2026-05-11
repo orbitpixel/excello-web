@@ -141,7 +141,8 @@ header .ctaSection ul li a {
 }
 /* hero banner */
 .heroBanner {
-    height: 477px;
+    /* height: 477px; */
+    height: 502px;
     /* background-color: #c0c0c0; */
     overflow: hidden;
     position: relative;
