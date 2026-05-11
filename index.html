@@ -524,7 +524,7 @@
         <div class="col-12">
           <div class="clientLogos">
             <div class="slide">
-              <a href=""><img src="assets/img/c1.png" alt="" /></a>
+              <img src="assets/img/c1.png" alt="" />
             </div>
             <div class="slide">
               <img src="assets/img/c2.png" alt="" />
@@ -696,6 +696,8 @@
           // instead of a settings object
         ]
       });
+      });
+      $(window).on('load', function () {
       jQuery('.clientLogos').slick({
         dots: false,
         infinite: true,
