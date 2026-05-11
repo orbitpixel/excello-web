@@ -213,7 +213,7 @@ header .ctaSection ul li a {
     margin-top: 30px;
 }
 .intro .items .card {
-    /* height: 342px; */
+    min-height: 372px;
     width: 100%;
     padding: 22px 24px;
 }
