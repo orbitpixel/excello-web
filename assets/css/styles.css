@@ -814,3 +814,55 @@ border-radius: 8px;
     justify-content: flex-end;
     gap: 15px;
 }
+.heroCta {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #2a5ea1;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background-color: #2a5ea1;
+}
+.btn-primary .icon-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    transition: margin-left 0.30s ease;
+}
+.btn-primary:hover .icon-inner {
+    margin-left: 8px;
+    transition: margin-left 0.30s ease;
+}
+.btn-success {
+    background-color: #31a45f;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-success:hover {
+    background-color: #31a45f;
+}
+.btn-success .icon-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    transition: margin-left 0.30s ease;
+}
+.btn-success:hover .icon-inner {
+    margin-left: 8px;
+    transition: margin-left 0.30s ease;
+}
