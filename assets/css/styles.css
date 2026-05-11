@@ -6,6 +6,9 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+.paddingRightNone {
+    padding-right: 0 !important;
+}
 .head {
     background-color: #fff;
     position: sticky;
@@ -13,7 +16,7 @@ body {
     z-index: 1000;
 }
 header {
-    padding: 29px 0;
+    padding: 25px 0;
 }
 header .headLogo {
     max-width: 194px;
@@ -23,7 +26,7 @@ header .headerContent {
 font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 14px;
 line-height: 20px;
 /* or 167% */
 letter-spacing: -0.01em;
@@ -90,7 +93,7 @@ header .ctaSection ul li a {
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    top: 100%;
+    top: 90%;
 }
 /* ============ mobile view .end// ============ */
 .navigation .navbar {
@@ -171,7 +174,7 @@ header .ctaSection ul li a {
 .intro h3 {
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 45px;
     line-height: 45px;
     /* identical to box height, or 40% */
@@ -229,6 +232,38 @@ header .ctaSection ul li a {
     padding: 15px 0 0;
 }
 /* what we serve */
+.intro .slick-prev.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.intro .slick-next.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 .whatweserve {
     padding: 42px 0;
     background-color: #F4F5F6;
@@ -236,7 +271,7 @@ header .ctaSection ul li a {
 .whatweserve h3 {
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 45px;
     line-height: 45px;
     /* identical to box height, or 40% */
@@ -300,7 +335,7 @@ header .ctaSection ul li a {
 .whychooseus h3 {
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 45px;
     line-height: 45px;
     /* identical to box height, or 40% */
@@ -457,7 +492,7 @@ color: #2060CD;
 .resources h3 {
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 45px;
     line-height: 45px;
     /* identical to box height, or 40% */
@@ -516,7 +551,7 @@ color: #2060CD;
 .clients h3 {
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 45px;
     line-height: 45px;
     /* identical to box height, or 40% */
